@@ -53,12 +53,26 @@ autopartes-ventas-e-inventario/
 ## 🚀 Guía de Instalación
 Sigue estos pasos para configurar tu entorno de desarrollo local:
 
-1. Clonar el repositorio
+1️⃣ Clonar el repositorio
 ```bash
    git clone [https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git](https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git)
    cd autopartes-ventas-e-inventario
 ```
-
+2️⃣ Crear y activar el entorno virtual
+Se recomienda utilizar un entorno virtual para aislar las dependencias del proyecto.
+Windows (PowerShell)
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+3️⃣ Instalar dependencias
+```bash
+pip install PyQt5
+```
+Si cuentas con el archivo de requerimientos:
+```bash
+pip install -r requirements.txt
+```
 ---
 
 
