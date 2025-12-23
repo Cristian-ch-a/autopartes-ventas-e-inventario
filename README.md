@@ -39,8 +39,6 @@ autopartes-ventas-e-inventario/
 ├── README.md
 └── .gitignore
 
-yaml
-Copiar código
 
 ---
 
