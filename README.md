@@ -111,7 +111,7 @@ Próximas mejoras planificadas
  * 🔐 Sistema de autenticación y roles de usuario
 
 ---
-##👤 Autor
+👤 Autor
 
 Cristian
 GitHub: https://github.com/Cristian-ch-a
