@@ -46,16 +46,14 @@ autopartes-ventas-e-inventario/
 ├── 🔄 reset_db.py     # Script para inicializar/limpiar la base de datos
 └── 📄 README.md        # Documentación del proyecto
 
----
-
-
+```
 
 ## 🚀 Guía de Instalación
+Sigue estos pasos para configurar tu entorno de desarrollo local:
 
-Sigue estos pasos detallados para configurar tu entorno de desarrollo local de forma rápida y segura.
+1. Clonar el repositorio
+* ** git clone [https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git](https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git)
+* ** cd autopartes-ventas-e-inventario
 
-### 1️⃣ Clonar el Repositorio
-Primero, descarga el proyecto a tu máquina local:
-```bash
-git clone [https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git](https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git)
-cd autopartes-ventas-e-inventario
+
+
