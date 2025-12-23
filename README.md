@@ -73,7 +73,45 @@ Si cuentas con el archivo de requerimientos:
 ```bash
 pip install -r requirements.txt
 ```
+4️⃣ Inicializar la base de datos
+
+⚠️ IMPORTANTE
+El archivo de base de datos (.db) no se incluye en el repositorio por seguridad y buenas prácticas.
+
+Para crear o reiniciar la base de datos, ejecuta:
+```bash
+python reset_db.py
+```
+Esto generará una base de datos limpia lista para pruebas.
+
+5️⃣ Ejecutar la aplicación
+```bash
+python main.py
+```
 ---
+## 🎯 Objetivos del proyecto
 
+Este proyecto fue desarrollado con fines educativos y de portafolio, con los siguientes objetivos:
 
+* Aplicar buenas prácticas de organización y modularidad en Python.
 
+* Desarrollar una aplicación de escritorio funcional con interfaz gráfica.
+
+* Implementar persistencia de datos mediante SQLite.
+
+* Construir una base sólida para futuras ampliaciones.
+---
+## 🛠️ Estado del proyecto
+
+🚧 En desarrollo activo.
+
+Próximas mejoras planificadas
+ * 📈 Dashboard con estadísticas y gráficas
+
+ * 🔐 Sistema de autenticación y roles de usuario
+
+---
+##👤 Autor
+
+Cristian
+GitHub: https://github.com/Cristian-ch-a
