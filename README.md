@@ -48,12 +48,18 @@ autopartes-ventas-e-inventario/
 
 ```
 
+---
+
 ## 🚀 Guía de Instalación
 Sigue estos pasos para configurar tu entorno de desarrollo local:
 
 1. Clonar el repositorio
-  * git clone [https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git](https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git)
-  * cd autopartes-ventas-e-inventario
+```bash
+   git clone [https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git](https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git)
+   cd autopartes-ventas-e-inventario
+```
+
+---
 
 
 
