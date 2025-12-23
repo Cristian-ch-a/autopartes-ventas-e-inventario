@@ -1,97 +1,47 @@
-# Sistema de Ventas e Inventario para Autopartes
+# 🏎️ Sistema de Ventas e Inventario - Autopartes
 
-Sistema de escritorio desarrollado en **Python** para la gestión básica de ventas e inventario de autopartes.  
-El proyecto está orientado al aprendizaje práctico y a la aplicación de buenas prácticas en desarrollo de software.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyQt5](https://img.shields.io/badge/PyQt5-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
----
-
-## 📌 Características principales
-
-- Gestión de productos (altas, bajas y modificaciones)
-- Control de inventario
-- Registro de ventas
-- Interfaz gráfica desarrollada con **PyQt5**
-- Base de datos local usando **SQLite**
+Una solución de escritorio robusta y ligera diseñada para la gestión eficiente de autopartes. Este proyecto combina una arquitectura modular con una interfaz intuitiva, ideal para entornos de aprendizaje y aplicaciones comerciales a pequeña escala.
 
 ---
 
-## 🧰 Tecnologías utilizadas
+## ✨ Características Principales
 
-- Python 3
-- PyQt5
-- SQLite
-
----
-
-## 📁 Estructura del proyecto
-
-autopartes-ventas-e-inventario/
-│
-├── assets/ # Recursos gráficos
-├── controllers/ # Lógica de control
-├── models/ # Modelos de datos
-├── gui/ # Interfaz gráfica
-├── database/ # Scripts y configuración de base de datos
-├── utils/ # Utilidades generales
-│
-├── main.py # Punto de entrada del sistema
-├── reset_db.py # Script para reiniciar la base de datos
-├── README.md
-└── .gitignore
-
+* **📦 Gestión de Productos:** CRUD completo (Altas, Bajas, Modificaciones y Consultas).
+* **📉 Control de Stock:** Monitoreo en tiempo real de niveles de inventario.
+* **💰 Registro de Ventas:** Interfaz fluida para procesar transacciones rápidamente.
+* **🖥️ Interfaz Moderna:** Desarrollada con **PyQt5** para una experiencia de usuario nativa y ágil.
+* **💾 Almacenamiento Local:** Base de datos **SQLite** integrada, sin necesidad de configuraciones complejas de servidor.
 
 ---
 
-## 🗄️ Base de datos
+## 🛠️ Stack Tecnológico
 
-Este proyecto utiliza **SQLite** como base de datos local.
+| Tecnología | Propósito |
+| :--- | :--- |
+| **Python 3** | Lenguaje núcleo del sistema |
+| **PyQt5** | Framework para la interfaz gráfica (GUI) |
+| **SQLite** | Motor de base de datos relacional ligero |
 
-⚠️ El archivo de base de datos (`.db`) **no se incluye** en el repositorio por seguridad y buenas prácticas.
+---
 
-Para crear o reiniciar la base de datos, utiliza el script:
+## 📂 Arquitectura del Proyecto
+
+El sistema sigue una estructura organizada por módulos para facilitar el mantenimiento y la escalabilidad:
 
 ```bash
-python reset_db.py
-Esto generará una base de datos limpia para pruebas.
-
-▶️ Cómo ejecutar el proyecto
-1️⃣ Clonar el repositorio
-bash
-Copiar código
-git clone https://github.com/Cristian-ch-a/autopartes-ventas-e-inventario.git
-cd autopartes-ventas-e-inventario
-2️⃣ Crear y activar entorno virtual
-bash
-Copiar código
-python -m venv venv
-Windows (PowerShell):
-
-bash
-Copiar código
-.\venv\Scripts\Activate.ps1
-3️⃣ Instalar dependencias
-bash
-Copiar código
-pip install -r requirements.txt
-pip install PyQt5
-4️⃣ Ejecutar la aplicación
-bash
-Copiar código
-python main.py
-🎯 Objetivo del proyecto
-Este proyecto tiene como finalidad:
-
-Practicar programación en Python
-
-Aplicar arquitectura básica por módulos
-
-Trabajar con interfaces gráficas y bases de datos
-
-Construir un portafolio de proyectos reales
-
-📌 Estado del proyecto
-🛠️ En desarrollo / aprendizaje continuo.
-
-👤 Autor
-Cristian
-GitHub: https://github.com/Cristian-ch-a
+autopartes-ventas-e-inventario/
+├── 🎨 assets/         # Recursos visuales (iconos, imágenes)
+├── ⚙️ controllers/    # Lógica de negocio y manejo de eventos
+├── 📊 models/         # Definición de tablas y consultas (Data Access)
+├── 🖼️ gui/            # Archivos .ui y vistas de PyQt5
+├── 🗄️ database/       # Scripts SQL y configuración inicial
+├── 🛠️ utils/          # Funciones auxiliares y herramientas
+│
+├── 🚀 main.py         # Punto de entrada principal del sistema
+├── 🔄 reset_db.py     # Script para inicializar/limpiar la base de datos
+└── 📄 README.md        # Documentación del proyecto
