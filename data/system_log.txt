@@ -1,0 +1,6 @@
+[2025-11-30 17:03:44] Error crítico insertando producto 'qq': table productos has no column named aplicacion
+[2025-11-30 17:06:21] Error crítico insertando producto '1': table productos has no column named aplicacion
+[2025-11-30 17:18:56] Error insertar: table productos has no column named aplicacion
+[2025-11-30 17:19:01] Error insertar: table productos has no column named aplicacion
+[2025-11-30 18:14:30] Error desconocido al insertar: table productos has no column named aplicacion
+[2025-11-30 19:00:19] Venta ID 2 OK. Prod: GSP-218322, Cant: 7, User: 0
