@@ -1,2 +1,0 @@
-[2025-11-30 14:48:30] Error Login: no such table: usuarios
-[2025-11-30 15:02:17] Venta ID 1 OK. Prod: GSP-218322, Cant: 3, User: 0
